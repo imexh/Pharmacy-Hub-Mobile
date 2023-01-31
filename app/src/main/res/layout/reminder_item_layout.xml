@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/rectangle"
+    android:id="@+id/reminderlayout">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/orderIdOrdersLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Morning Medicine"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/descriptionReminderLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Take your medicine"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/orderIdOrdersLayout"
+            app:layout_constraintTop_toBottomOf="@+id/orderIdOrdersLayout" />
+
+        <TextView
+            android:id="@+id/teddd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/descriptionReminderLayout"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionReminderLayout" />
+
+        <TextView
+            android:id="@+id/vvdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="Time"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/teddd"
+            app:layout_constraintTop_toBottomOf="@+id/teddd" />
+
+        <TextView
+            android:id="@+id/dateReminderLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="01/17/2022"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/teddd"
+            app:layout_constraintStart_toEndOf="@+id/teddd"
+            app:layout_constraintTop_toTopOf="@+id/teddd" />
+
+        <TextView
+            android:id="@+id/timeReminderLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="8.00am"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/vvdd"
+            app:layout_constraintStart_toEndOf="@+id/vvdd"
+            app:layout_constraintTop_toTopOf="@+id/vvdd" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="395dp"
+            android:layout_height="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeReminderLayout"
+            app:srcCompat="@drawable/line" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

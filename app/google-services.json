@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "517192812326",
+    "project_id": "pharmacyhub-a8bd8",
+    "storage_bucket": "pharmacyhub-a8bd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517192812326:android:bd29510c18905fdb7de3e7",
+        "android_client_info": {
+          "package_name": "noobz69.sltc.pharmacyhubmobileclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517192812326-mvsgehpa0aqkgmeaidoi5v01p5c5gf4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "noobz69.sltc.pharmacyhubmobileclient",
+            "certificate_hash": "d2993f9c5728bc17df09a413f20c9b2b207e773d"
+          }
+        },
+        {
+          "client_id": "517192812326-nl2p5lpgl6d0b4r26ed2mu1nn738p0gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsAxnBRrlNqEZuFyNiLZdv6TJM5m8tiVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517192812326-nl2p5lpgl6d0b4r26ed2mu1nn738p0gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

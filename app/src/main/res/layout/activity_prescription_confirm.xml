@@ -1,0 +1,271 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/editProfilePhotoBtn"
+    android:background="@drawable/background"
+    tools:context=".customerview.PrescriptionConfirm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/top_toolbar"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="283dp" >
+
+            <TextView
+                android:id="@+id/pharmacyTitlePharmacyMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="prescription\nupload"
+                android:textAllCaps="true"
+                android:textColor="#068B2E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/confirmationwhitebox"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingTop="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/nameTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView115"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Age" />
+
+                    <TextView
+                        android:id="@+id/ageTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView1115"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Contact Number" />
+
+                    <TextView
+                        android:id="@+id/contactTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView121s5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Email" />
+
+                    <TextView
+                        android:id="@+id/emailTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView1dd5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="City" />
+
+                    <TextView
+                        android:id="@+id/cityTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView1dds5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="District" />
+
+                    <TextView
+                        android:id="@+id/districtTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textView15c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Province" />
+
+                    <TextView
+                        android:id="@+id/provinceTextViewPrescriptionConfirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="" />
+
+                </LinearLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/backbtnPrescConfirm"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/greenbutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Back"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/confirmBtnPrescConfirm"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/greenbutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Confirm"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/backbtnPrescConfirm"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/backbtnPrescConfirm"
+                    app:layout_constraintTop_toTopOf="@+id/backbtnPrescConfirm" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/main_toolbar"/>
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

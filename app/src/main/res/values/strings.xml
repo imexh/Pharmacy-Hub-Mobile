@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PharmacyHubMobileClient</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">logo</string>
+    <string name="background">Background</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="contentofsettings">ContentOfSettings</string>
+    <string name="settings">Settings</string>
+    <string name="title_settings">title_settings</string>
+    <string name="backbutton">backbutton</string>
+    <string name="notifications">notifications</string>
+    <string name="reminders">reminders</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Reminders">Reminders</string>
+    <string name="Location">Location</string>
+    <string name="Contact_Us">Contact Us</string>
+    <string name="About">About</string>
+    <string name="Sign_Out">Sign Out</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="evening_medicines">Evening medicines</string>
+    <string name="title">Title</string>
+    <string name="add_reminders">ADD REMINDERS</string>
+    <string name="phone">Phone Number</string>
+    <string name="phonevalue">012 345 6789</string>
+    <string name="email">Email</string>
+    <string name="emailvalue">oph@gmail.com</string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

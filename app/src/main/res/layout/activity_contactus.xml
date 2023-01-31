@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:elevation="20dp"
+    tools:context=".customerview.Contactus">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-169dp"
+        android:background="@drawable/newbg1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="86dp"
+            android:layout_height="72dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/backBtnContactus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/backbutton"
+                android:rotation="180"
+                android:translationX="30dp"
+                android:clickable="true"
+                android:translationY="95dp"
+                app:srcCompat="@drawable/back" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:textAllCaps="true"
+                android:textColor="#068B2E"
+                android:textSize="25sp"
+                android:translationX="80dp"
+                android:translationY="93dp"
+                android:typeface="sans" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/reminder_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/contentofsettings"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Send us a message or contact us via below details"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:translationY="160dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp" />
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:translationY="210dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:padding="10dp"
+            android:hint="type the title.."
+            android:background="#8AC9C9C9"/>
+
+        <Button
+            android:id="@+id/sendBtnContactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="188dp"
+            android:background="#068B2E"
+            android:elevation="5dp"
+            android:padding="15dp"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:translationY="335dp"
+            tools:ignore="TextContrastCheck" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:translationY="345dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/Contact_Us"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/sf_pro_display"
+                    android:text="@string/phone"
+                    android:textColor="#3F3F3F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:translationX="40dp"
+                    android:translationY="50dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/sf_pro_display"
+                    android:text="@string/phonevalue"
+                    android:textSize="18sp"
+                    android:translationX="40dp"
+                    android:translationY="75dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/sf_pro_display"
+                    android:text="@string/email"
+                    android:textColor="#3F3F3F"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:translationY="120dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/sf_pro_display"
+                    android:text="@string/emailvalue"
+                    android:textSize="18sp"
+                    android:translationX="40dp"
+                    android:translationY="145dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/phoneicon"
+                    android:translationX="40dp"
+                    android:translationY="60dp" />
+
+                <ImageView
+                    android:id="@+id/imageView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/emailicon"
+                    android:translationX="50dp"
+                    android:translationY="140dp" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
