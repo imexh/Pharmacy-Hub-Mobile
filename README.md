@@ -6,8 +6,8 @@ Key Features:
 
 **Easy Ordering:** Customers can search for medicines, add them to the cart, and make purchases effortlessly.<br>
 **Prescription Upload:** Users can upload their prescriptions securely for verification.<br>
-**Account Creation:** Users can create accounts.
-**Order History:** Users can see their order history.
+**Account Creation:** Users can create accounts.<br>
+**Order History:** Users can see their order history.<br>
 **Reminders:** Users can add reminders to remind them to take medicine.
 
 This repository contains the source code for the Android application. Get started and enhance the pharmacy shopping experience for users today!
