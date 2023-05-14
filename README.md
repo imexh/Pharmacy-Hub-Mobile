@@ -14,4 +14,6 @@ This repository contains the source code for the Android application. Get starte
 
 Technologies used: Android Studio, Java, Firebase, XML.
 
+Web Client for Pharmacy Owners: https://github.com/imexh/Pharmacy-Hub-Web-Client.git
+
 ![Picture 1](https://github.com/imexh/Pharmacy-Hub-Mobile/assets/76934064/e17becd4-160a-467c-87ca-049d454ff458)
