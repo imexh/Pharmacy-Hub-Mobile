@@ -1,6 +1,16 @@
 # Pharmacy-Hub-Mobile
 
-This is an android application developed to manage academic activities of both undergraduates and staff members of IT faculty of SLTC. The main goal of this app is to provide quick access to both undergraduates and staff to interact with their activities on academic calendars, modules, reminders for assignments, upcoming events, exam results and discussion forum. There are three types of users within the app namely Staff, Students and Admin.
+This Android application is designed to provide a convenient and user-friendly platform for customers to purchase medicines from local pharmacy owners. The app utilizes Java, Android Studio, and Firebase to offer a seamless shopping experience.
+
+Key Features:
+
+Easy Ordering: Customers can search for medicines, add them to the cart, and make purchases effortlessly.
+Prescription Upload: Users can upload their prescriptions securely for verification.
+Account Creation: Users can create accounts.
+Order History: Users can see their order history.
+Reminders: Users can add reminders to remind them to take medicine.
+
+This repository contains the source code for the Android application. Get started and enhance the pharmacy shopping experience for users today!
 
 Technologies used: Android Studio, Java, Firebase, XML.
 
