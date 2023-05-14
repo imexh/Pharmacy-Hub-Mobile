@@ -4,8 +4,8 @@ This Android application is designed to provide a convenient and user-friendly p
 
 Key Features:
 
-**Easy Ordering:** Customers can search for medicines, add them to the cart, and make purchases effortlessly.
-**Prescription Upload:** Users can upload their prescriptions securely for verification.
+**Easy Ordering:** Customers can search for medicines, add them to the cart, and make purchases effortlessly.\n
+**Prescription Upload:** Users can upload their prescriptions securely for verification.\n
 **Account Creation:** Users can create accounts.
 **Order History:** Users can see their order history.
 **Reminders:** Users can add reminders to remind them to take medicine.
